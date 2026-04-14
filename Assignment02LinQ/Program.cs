@@ -1,4 +1,6 @@
-﻿namespace Assignment02LinQ
+﻿using static LINQ.DataSources.Source;
+namespace Assignment02LinQ
+
 {
     internal class Program
     {
@@ -84,6 +86,34 @@
 
             #endregion
             #region Question10
+            //var res = ProductList.Count(p => p.UnitsInStock > 0);
+            //Console.WriteLine(res);
+            #endregion
+            #region Question11
+            //var Cheapest = ProductList.Min(p => p.UnitPrice);
+            //var MostExpensive = ProductList.Max(p => p.UnitPrice);
+            //Console.WriteLine($"Cheapest = {Cheapest} - Most Expensive {MostExpensive});
+            #endregion
+            #region Question12
+            //var r = ProductList.Select(p => p.Category).Distinct();
+            //foreach(var item in r)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+            #region Question13
+            //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setB = { 3, 6, 9, 12, 15, 13 };
+            //var r = setA.Except(setB);
+            //foreach(var item in r)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+            #region Question14
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+            //var r = list1.Except(list2);
             #endregion
 
 
